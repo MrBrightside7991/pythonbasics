@@ -31,4 +31,5 @@ for i in range(1980,2001):
 print(total)
 print(titulos[titulos.year.between(1980,2000)])
 
+print(elenco[elenco.title=="The Godfather"])
 #print(titulos[titulos.title=="Taxi Driver"].sort_values('year').head(5))
